@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mon ePortfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/stylel.css">
+  <link rel="stylesheet" href="CSS/styleh.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<!---------------------------------------------------------------Header/navbar------------------------------------------------------------------------------>
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="index.html"><img src="Images/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="eportfolio.html">ePortfolio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Compétences</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="competences.html#image_4">HTML/CSS</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="competences.html#image_5">PHP/Java Script</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="competences.html#image_6">C/C++</a></div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Expérience</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="experience.html#image_7">Stage de 3ème</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="experience.html#image_8">MPS informatique-Seconde</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="experience.html#image_9">DUT informatique</a></div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Loisirs</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="loisirs.html#image_10">Ma Musique</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="loisirs.html#image_11">Le football</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="loisirs.html#image_12">Les animés</a></div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">CONTACT</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+</header>
+
+<!------------------------------------------------------------------------Fin du header/ début du corps de mon site----------------------------------------->
+<body>
+<!--------------------------------------------------------------------------Début du carousel--------------------------------------------------------------->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    	<img src="Images/8.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption text-center">
+      <h3 id="text-title">Bienvenue, je m'appelle Marco Balamon, étudiant en informatique.<br><br><a href="#heading"><img src="Images/marco.jpg"></a></h3><br><a class="btn btn-outline-light btn-lg" href="#heading">Me découvrir</a><br>
+      
+    </div>
+    </div>
+    <div class="carousel-item">
+    	<img src="Images/3.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption text-center">
+      <h3 id="text-title">Mon ePortfolio<br><br><a href="eportfolio.html"><img src="Images/logo1.png"></a></h3><br><a class="btn btn-outline-light btn-lg" href="eportfolio.html" id="bouton">Voir mon ePortfolio</a><br>
+    </div>
+    </div>
+    <div class="carousel-item">
+    	<img src="Images/5.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption text-center">
+      <h3 id="text-title">Mes connaissances en programmation peuvent vous intriguer!<br><br><a href="competences.html"><img src="Images/competences.png"></a></h3><br><a class="btn btn-outline-light btn-lg" href="competences.html" id="bouton">Voir mes compétences</a><br>
+    </div>
+    </div>
+    <div class="carousel-item">
+    	<img src="Images/html1.jpg" class="d-block w-100" alt="..." >
+      <div class="carousel-caption text-center">
+      <h3 id="text-title">Mon expérience peut également vous intéresser!<br><br><a href="experience.html"><img src="Images/experience.jpg"></a></h3><br><a class="btn btn-outline-light btn-lg" href="experience.html" id="bouton">Voir mon expérience</a><br>
+    </div>
+    </div>
+    <div class="carousel-item">
+    	<img src="Images/foot.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption text-center">
+      <h3 id="text-title">Mes loisirs préférés peuvent vous permettre de mieux me connaître !<br><br><a href="loisirs.html"><img src="Images/loisirs.jpg"></a></h3><br><a class="btn btn-outline-light btn-lg" href="loisirs.html" id="bouton">Voir mes loisirs</a><br>
+    </div>
+    </div>
+
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><br>
+
+<!---------------------------------------------------------------------------------------Fin du carousel----------------------------------------------------->
+<!----------------------------------------------------------------------------Début de la section ePortfolio de la page d'accueil--------------------------->
+<div id="portfolio">
+	<div class="jumbotrom container-fluid">
+		<h3 class="heading"><a href="eportfolio.html">Mon ePortfolio</a></h3>
+		<div class="heading-underline"></div>
+		<div class="row no-padding">
+				<div class="portfolio"><br>
+					<h3 class="title-portfolio"><a href="competences.html">Mes<br>compétences</a></h3><br>
+				<a href="competences.html" target="_blank"><img src="Images/html.jpg" id="img-accueil-portfolio"></a>
+			    </div>
+				<div class="portfolio"><br>
+					<h3 class="title-portfolio"><a href="loisirs.html">Mes<br>loisirs</a></h3><br>
+				<a href="loisirs.html" target="_blank"><img src="Images/loisirs.jpg" id="img-accueil-portfolio"></a>
+			    </div>
+				<div class="portfolio"><br>
+					<h3 class="title-portfolio"><a href="experience.html">Mon<br>expérience</a></h3><br>
+				<a href="experience.html" target="_blank"><img src="Images/experience.jpg" id="img-accueil-portfolio"></a>
+			    </div>
+		</div>
+	</div>
+</div><br>
+<!-----------------------------------------------------------------Fin de la section eportfolio de la page d'accueil----------------------------------------->
+<h3 class="heading" id="heading">Me découvrir</h3>
+<div class="heading-underline"></div>
+<h1 id="title-pt-4">Qui suis-je ?</h1><br>
+<div class="heading-underline"></div>
+<img src="Images/iut.png" alt="Pray" id="image_1">
+<br>
+<article><p id="pt-4">Je m'appelle Marco Balamon, je suis né le 5 juin 2002. Et je suis actuellement étudiant en première année au sein de l'IUT de Paris. J'ai eu mon baccalauréat mention BIEN en 2020 et j'espère pouvoir exeller en DUT. Je suis quelqu'un de gentil, altruiste, toujours motivé vis-à-vis du travail. J'aime énormément les mathématiques et l'informatique. Le fait de résoudre des problèmes, se casser la tête sur une question de logique, mais réussir à la résoudre à la fin est une réelle source de satisfaction et de bonheur pour moi ! Je suis énormément investi lorsqu'il s'agit de travailler en groupe ou de mener à bien un grand projet individuellement.</p></article><br>
+<h1 id="title-pt-4">D'où je viens?</h1><br>
+<div class="heading-underline"></div><br>
+<img src="Images/lycee.jpg" alt="Pray" id="image_2"><br>
+<article><p id="pt-4">J'ai fait toute ma scolarité jusqu'au lycée dans la ville de Bobigny. J'ai toujours été intéressé par l'informatique. J'ai fait mon premier site en 3ème lors de mon stage. J'ai ensuite appris encore plus le html en MPS en seconde. C'est pourquoi, j'ai choisi la voie du DUT informatique pour continuer de vivre de ma passion !De plus, la licence informatique ne correspondait pas à mon profil car j'ai besoin d 'être encadré et les classes préparatoires sont très intensives et ne spécialisent pas directement l'étudiant en Informatique. Le Dut était un choix judicieux de ma part car je m'y plais énormément.</p></article><br>
+<h1 id="title-pt-4">Où vais-je?</h1><br>
+<div class="heading-underline"></div><br>
+<img src="Images/efrei.jpg" alt="Pray" id="image_3"><br>
+<article><p id="pt-4">L'objectif est d'avoir de bons résultats pour intégrer une bonne école d'ingénieur. De plus, l'alternance en 2ème année m'intéresse énormément et pouvoir la faire dans une grande boîte serait un formidable accomplissement pour moi! S'il y a bien une poursuite d'études qui m'intéresse énormément, c'est de pouvoir intégrer le cycle d'ingénieur en alternance à l'EFREI "Logiciel et Système d'Informations" où je pourrais approndir mes connaissances en C et C++, toucher beaucoup plus au réseau, à la cybersécurité. Et ensuite, j'aimerai travailler dans une entreprise comme Microsoft en tant que Ingénieur Logiciel.</p></article><br>
+<!--------------------------------------------------------------Fin de la section Me Découvrir--------------------------------------------------------------->
+<!--------------------------------------------------------------Début footer--------------------------------------------------------------------------------->
+<footer class="text-center">
+			<img src="Images/logo.png" id="taille-logo">
+			<p>Marco Balamon<br>IUT de Paris<br>18 ans</p>
+			<strong>Informations de contact</strong><br>
+			<p>07.81.79.24.91<br>marco.balamon0506@gmail.com</p>
+			<a href="https://www.facebook.com/marco.balamon/" target="_blank"><img src="Images/fb.jpg" id="img-fb"></a>
+			<a href="https://www.instagram.com/marco_egy93/" target="_blank"><img src="Images/insta.jpg"  id="img-insta"></a><br><br>
+		<div class="heading-underline"></div>
+		<p class="text-center">Copyright ©2020 Tous les droits sont réservés | ePortfolio développé par <span>Marco Balamon</span> en HTML5 et CSS3</p>
+</footer>
+<!--------------------------------------------------------------Fin footer---------------------------------------------------------------------------------->
+</body>
+<!--------------------------------------------------------------Script jquery/popper/js bootstrap--------------------------------------------------->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+</html>
