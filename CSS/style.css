@@ -1,0 +1,433 @@
+
+/*navbar page d'accueil--------------------------------------------------------------------------------*/
+
+.navbar{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.9rem;
+	letter-spacing: 0.1rem;
+	background: rgba(0, 0, 0, .6)!important;
+}
+
+.navbar-brand img{
+	height: 4rem;
+}
+
+.navbar-brand:hover{
+		transform: scale(1.1);
+}
+
+.navbar-nav li{
+	padding-right: 0.7rem;
+}
+
+.navbar-nav{
+	margin-right: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	padding-top: .8rem;
+	display: block;
+	transition: transform .5s ease;
+    animation: bounceInRight;
+    animation-duration: 2s;
+
+}
+
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover{
+	color: red;
+	background-color: white;
+	transform: scale(1.1);
+}
+
+.dropdown-item:hover{
+	background-color: red;
+	color: white;
+}
+
+/*Carousel d'images page d'accueil-----------------------------------------------------------------------------------------------*/
+
+
+.carousel-item{
+	pause: "false";
+}
+
+.carousel-caption{
+	margin: 5% auto;
+
+}
+.carousel-caption h3 img{
+	width: 26%;
+	height: 26%;
+	transition: transform .5s ease;
+}
+.carousel-caption h3 img:hover{
+	transform: scale(1.1);
+}
+.carousel-caption h3{
+	padding: 20px;
+	background: rgba(0,0,0,0.9);
+    display: inline-block;
+    animation: bounceInLeft;
+    animation-duration: 2s; 
+}
+
+.btn{
+	color:white;
+	background: black;
+	border-color: white;
+}
+
+.btn:hover{
+	border-color: white;
+	color:white;
+	background-color: red;
+}
+
+.heading-underline{
+	width: 3rem;
+	height: .2rem;
+	transition: transform .5s ease;
+	background-color: red;
+	margin: 0 auto 2rem;
+}
+
+
+/*présentation rapide du poirtfolio avec les 3 images----------------------------------------------------------*/
+
+.jumbotrom{
+	border-radius: 0;
+}
+
+.portfolio img:hover {
+	transform: scale(1.1);
+	cursor: zoom-in;
+}
+
+.row.no-padding [class*=col-] {
+	padding: 0;
+}
+
+.portfolio {
+	display: block;
+	overflow: hidden;
+	margin: auto;
+}
+
+h3.heading, h3.title-portfolio{
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	font-size: 2rem;
+	font-weight: 700;
+	text-shadow: 0.1rem 0.1rem 0.5rem black;
+    animation: bounceInLeft;
+    animation-duration: 2s;
+	text-transform: uppercase;
+	padding-bottom: 1.9rem;
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.6);
+	transition: transform .5s ease;
+}
+h3.heading:hover, h3.title-portfolio:hover{
+	transform: scale(1.1);
+	text-decoration: none;
+}
+
+h3.heading{
+	width: 300px;
+	text-decoration: none;
+}
+
+h3.title-portfolio{
+    width: 300px;
+    text-decoration: none;
+
+}
+h3.heading a:hover, h3.title-portfolio a:hover{
+	color: black;
+	background: white;
+	text-decoration: none;
+
+}
+h3.heading a, h3.title-portfolio a{
+	text-decoration: none;
+	color: white;
+}
+
+#img-accueil-portfolio {
+	display: block;
+	margin: auto;
+	width: 400px;
+	transition: transform .5s ease;
+    animation: bounceInRight;
+    animation-duration: 2s;
+}
+
+
+/*section "Me découvrir" à la page d'accueil------------------------------------------------------------------------*/
+
+
+#title-pt-4 {
+	background: rgba(0,0,0,0.6);
+	color: white;
+	width: 300px;
+	margin: auto;
+	text-align: center;
+	transition: transform .5s ease;
+    
+}
+
+#title-pt-4:hover{
+	transform: scale(1.1);
+}
+/*-----------------------------------------------------style de mes paragraphes dans mes pages----------------------------------------------------*/
+#pt-4 {
+	text-align: justify;
+	text-justify: inter-word;
+	top: 7vmin;
+	left: -4vmin;
+	background: white;
+	border-radius: 3px;
+	text-align: left;
+	padding: 6vmin 6vmin 6vmin 6vmin;
+	box-shadow: 0px 25px 42px rgba(0,0,0,0.2);
+	font-family: var(--Rubik);
+	z-index: 1;
+	margin: 0 15%;
+	animation: bounceInRight;
+    animation-duration: 2s;
+}
+
+#image_1 {
+	display: block;
+	margin: auto;
+	width: 400px;
+	height: 400px;
+    animation: bounceInRight;
+    animation-duration: 2s;
+}
+#image_2 {
+	display: block;
+	margin: auto;
+	width: 600px;
+	height: 400px;
+    animation: bounceInRight;
+    animation-duration: 2s;
+}
+#image_3 {
+	display: block;
+	margin: auto;
+	width: 600px;
+	height: 300px;
+    animation: bounceInRight;
+    animation-duration: 2s;
+}
+#image_4 {
+	display: block;
+	margin: auto;
+	width: 600px;
+	height: 310px;
+    animation: bounceInRight;
+    animation-duration: 2s;
+}
+#image_5 {
+	display: block;
+	margin: auto;
+	width: 600px;
+	height: 300px;
+    animation: bounceInRight;
+    animation-duration: 2s;
+}
+#image_6 {
+	display: block;
+	margin: auto;
+	width: 600px;
+	height: 305px;
+    animation: bounceInRight;
+    animation-duration: 2s;
+}
+#image_7 {
+	display: block;
+	margin: auto;
+	width: 600px;
+	height: 305px;
+    animation: bounceInRight;
+    animation-duration: 2s;
+}
+#image_8 {
+	display: block;
+	margin: auto;
+	width: 600px;
+	height: 305px;
+    animation: bounceInRight;
+    animation-duration: 2s;
+}
+#image_9 {
+	display: block;
+	margin: auto;
+	width: 600px;
+	height: 620px;
+    animation: bounceInRight;
+    animation-duration: 2s;
+}
+#image_10 {
+	display: block;
+	margin: auto;
+	width: 600px;
+	height: 360px;
+    animation: bounceInRight;
+    animation-duration: 2s;
+}
+#image_11 {
+	display: block;
+	margin: auto;
+	width: 600px;
+	height: 305px;
+    animation: bounceInRight;
+    animation-duration: 2s;
+}
+
+#image_12 {
+	display: block;
+	margin: auto;
+	width: 600px;
+	height: 315px;
+    animation: bounceInRight;
+    animation-duration: 2s;
+}
+/*footer--------------------------------------------------------------------------------------------------------------------------------*/
+
+footer{
+	background: rgba(0,0,0,0.9);
+	color: white;
+	padding-bottom: 10px;
+	margin-bottom: -40px;
+}
+
+#img-fb,#img-insta{
+	width: 30px;
+	transition: transform .5s ease;
+}
+#img-fb:hover,#img-insta:hover{
+	transform: scale(1.1);
+}
+#taille-logo{
+	width: 100px;
+}
+
+/*page portfolio-------------------------------------------------------------------------------------------------------------------*/
+
+#img-portfolio {
+	display: block;
+	margin: auto;
+	width: 60%;
+	transition: transform .5s ease;
+    animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+#text-portfolio{
+	display: block;
+	margin: auto;
+	width: 60%;
+	background: black;
+	color: white;
+	padding: 1vmin 1vmin 1vmin 1vmin;
+	box-shadow: 0px 25px 42px rgba(0,0,0,0.2);
+	transition: transform .5s ease;
+    animation: bounceInRight;
+    animation-duration: 2s;
+}
+
+#text-portfolio:hover{
+	transform: scale(1.1);
+}
+
+/*Contact-----------------------------------------------------------------------------------------------------*/
+
+#champs::placeholder{
+	color: white;
+	opacity: 0.75;
+}
+
+#arriereplan{
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.main-content {
+	margin: auto;
+	width: 14em;
+	text-align: center;
+	background: rgba(0,0,0,0.9);
+	padding-bottom: 50px;
+	padding-top: 50px;
+	padding-right: 800px;
+}
+
+form {
+	padding-left: 200px;
+}
+
+.form-control {
+	background: none;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 18px;
+	margin: auto;
+	width: 400px;
+	border-bottom: 1px solid gray;
+}
+
+.form-control:hover {
+	border: 2px solid #6495ED;
+	transform: scale(1.1);
+}
+
+input {
+	height: 45px;
+}
+
+#bouton_envoi
+{
+	background: #1E90FF;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+#bouton_envoi:hover
+{
+	background-color: #6495ED;
+	cursor: pointer;
+}
+
+
+/*loisirs--------------------------------------------------------------------------------------------*/
+
+audio{
+	width: 250px;
+	outline: none;
+}
+
+
+/*competences--------------------------------------------------------------------------------------------*/
+
+#pix{
+	width: 65%;
+}
+
+video{
+	display:block;
+	width:75%;
+	height: 30%;
+	margin:0 auto 35px auto;
+}
